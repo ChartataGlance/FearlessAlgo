@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./tabcontent.css">
     <title>Trying</title>
 </head>
 
 <body>
+    <div class="bg"></div>
+    
     <header>
-        <div class="logo">Trying</div>
+        
+        <div class="logo">FearlessAlgo</div>
         <div class="toggle "></div>
         <div class="navigation ">
 
@@ -58,20 +62,67 @@
        
 
     </header>
-
+    <section>
+        
+        <div class="hero">
+            <div class="btn-box">
+                <button id="btn1" onclick="openOne()" ><i class="fab fa-500px"></i> Detailed Report</button>
+                <button id="btn2" onclick="openTwo()" ><i class="fab fa-500px"></i> equity</button>
+                <button id="btn3" onclick="openTre()" ><i class="fab fa-500px"></i> qty used</button>
+            </div>
+             
+            <div id="content1" class="content">
+                
+                <div class="content-left">
+                    <h1>learn detailed report</h1>
+                  
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, assumenda.
+                        Aliquid pariatur placeat soluta consequuntur aspernatur! Doloribus
+                        iste nobis facilis mollitia beatae nihil labore?
+                        Hic dolorum ratione animi veritatis facilis?</p>
+                    <a href="#">view</a>
+                </div>
+                <div class="content-right">
+                    <img src="download.png" alt="">
+                </div>
+            </div>
+    
+            <div id="content2" class="content">
+                <div class="content-left">
+                    <h1>learn detailed 2report</h1>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, assumenda.
+                        Aliquid pariatur placeat soluta consequuntur aspernatur! Doloribus
+                        iste nobis facilis mollitia beatae nihil labore?
+                        Hic dolorum ratione animi veritatis facilis?</p>
+                    <a href="#">view</a>
+                </div>
+                <div class="content-right">
+                    <img src="download.png" alt="">
+                </div>
+            </div>
+    
+            <div id="content3" class="content">
+                <div class="content-left">
+                    <h1>learn detailed 3report</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, assumenda.
+                        Aliquid pariatur placeat soluta consequuntur aspernatur! Doloribus
+                        iste nobis facilis mollitia beatae nihil labore?
+                        Hic dolorum ratione animi veritatis facilis?</p>
+                    <a href="#">view</a>
+                </div>
+                <div class="content-right">
+                    <img src="download.png" alt="">
+                </div>
+    
+            </div>
+    
+        </div>
+        <script src="./tab.js"></script>
+    </section>
 
     <section class="home">
-       <img src="./heli.jpg" 
-            class ="home-img" alt="">
-
-       <div class="home-content">
-           <h1>hira a pro  <br> your goals</h1>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt 
-               exercitationem, libero inventore nam quibusdam minus 
-               aliquam blanditiis vel consequuntur ad porro sequi qui hic earum 
-               mollitia quisquam in omnis possimus?</p>
-               <a href="contact.html" class="btn">get started</a>
-       </div>
+       
       
     </section>
     <script src="./app.js"></script>

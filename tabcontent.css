@@ -1,45 +1,32 @@
-*{
-    margin: 0;
-    padding: 0;
-   
-    font-family: 'heebo' , sans-serif;
-}
 
 .hero{
-    width: 80%;
+    width: 100%;
     height: 100vh;
     position: relative;
-    margin: 100px auto;
+    margin-top: 20px;
     overflow: hidden;
-
-
+    
 }
 .btn-box{
     display: flex;
-    border-bottom: 1px solid black;
+    
+    
 
 }
 
 .btn-box button {
     background: transparent;
-    border: none;
+    border: 1px;
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
     margin-right: 50px;
     font-size: 20px;
     font-weight: 20px;
+    margin-left: 100px;
 }
 
-.btn-box .fab {
-    margin-right: 20px;
 
-}
-
-.btn-box button:hover .fab{
-    color: #2f3079;
-    
-}
 
 .content{
     display: flex;
@@ -49,16 +36,20 @@
     position: absolute;
     transform: translateX(100%);
     transition: 0.3s;
+    position: absolute;
     
 }
 
 .content-left {
-    flex-basis: 50%;
+    flex-basis: 30%;
+    text-align: left;
    
     
 }
 .content-left p  {
-    font-size: 1.5rem;
+    font-size: 1.0rem;
+    color: rgb(67, 59, 182);
+    
     
 }
 .content-left a  {
@@ -76,12 +67,13 @@
     
 }
 .content-right {
-    flex-basis: 50%;
+    flex-basis: 55%;
     
 }
 .content-right img {
     height: 100%;
     width: 100%;
+    box-shadow:20px 20px 50px 15px grey;
     
 }
 
@@ -91,4 +83,48 @@
 #btn1{
     color: #3caa20;
 }
+.chart-img{
+    position: absolute;
+  
 
+}
+
+@media (max-width:1068px){
+    .btn-box{
+        text-align: center;
+        
+    }
+    .content{
+        flex-direction: column;
+    }
+    .content-left p  {
+        font-size: 0.8rem;
+    }
+    .content-right img {
+       margin-top: 50px;
+        box-shadow:none;
+        
+    }
+
+    .btn-box button {
+        cursor: pointer;
+        padding: 1px 5px;
+        margin-right: 10px;
+        font-size: 1.2rem;
+        font-weight: 20px;
+        margin-left: 20px;
+    }
+    .content-left a {
+        font-size: 1rem;
+        width: 100px;
+        margin-bottom: 10px;
+        
+    }
+    .content-left p  {
+        
+        margin-top: 50px;
+        
+        
+    }
+
+}

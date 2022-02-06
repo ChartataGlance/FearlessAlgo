@@ -1,25 +1,33 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
 :root {
     --primary-color: #7f5cc2;
-    --sec-color: #88858f;
-    --dark-color: #170744;
+    --sec-color: hsl(124, 21%, 73%);
+    --dark-color: aqua ;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 html,
 body{
+
     background-color:var(--dark-color);
     font-family: 'poppins' , sans-serif;
-    color: var(--dark-color);
+    background-image: url("./chart.png");
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+    background-position: left;
+   
 }
+
 
 h1{
     font-size: 30px;
@@ -33,21 +41,23 @@ p{
 
 .logo{
     position: absolute;
-    top: 30px;
-    left: 100px;
+    top: 50px;
+    left: 120px;
     font-size: 3rem;
     font-weight: 700;
-    color: var(--dark-color);
+    color: rgb(94, 150, 160);
     z-index: 16;
+   
+    
 }
 /*toggle*/
 .toggle{
     position: fixed;
-    top: 0;
-    right: 0;
-    width: 60px;
-    height: 30px;
-    background: #170744 url(./imgblur.png);
+    top: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    background: url(./imgblur.png);
     background-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
@@ -57,8 +67,8 @@ p{
 }
 
 .toggle.active {
-    background: #170744 url(./cross.png);
-    background-size: 25px;
+    background: var(--sec-color) url(./cross.png);
+    background-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
 
@@ -111,11 +121,14 @@ section.home {
     width: 100%;
     height: 100%;
     background-color: var(--sec-color);
-    opacity: 0.9;
+    opacity: 0.8;
     z-index: 15;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(./chart.png);
+    background-position: center;
+    background-repeat: no-repeat;
     
 
 
@@ -178,5 +191,10 @@ section.home {
     .navigation ul li a {
         font-size: 2rem;
     }
+    
+    body{
+    background-position: center;
+   
+}
 }
 

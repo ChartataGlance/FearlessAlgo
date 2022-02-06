@@ -7,28 +7,28 @@ var btn3 = document.getElementById("btn3");
 
 function openOne() {
   content1.style.transform = "translateX(0%)";
-  content2.style.transform = "translateX(100%)";
+  content2.style.transform = "translateX(-100%)";
   content3.style.transform = "translateX(100%)";
   btn1.style.color = "#ff7846"
   btn2.style.color = "#000"
   btn3.style.color = "#000"
-  content1.style.transitionDelay = "0.3s"
+  content1.style.transitionDelay = "0.5s "
   content2.style.transitionDelay = "0s"
   content3.style.transitionDelay = "0s"
 }
 function openTwo() {
   content1.style.transform = "translateX(100%)";
   content2.style.transform = "translateX(0%)";
-  content3.style.transform = "translateX(100%)";
+  content3.style.transform = "translateX(-100%)";
   btn1.style.color = "#000"
   btn2.style.color = "#ff7846"
   btn3.style.color = "#000"
   content1.style.transitionDelay = "0s"
-  content2.style.transitionDelay = "0.3s"
+  content2.style.transitionDelay = "0.5s "
   content3.style.transitionDelay = "0s"
 }
 function openTre() {
-  content1.style.transform = "translateX(100%)";
+  content1.style.transform = "translateX(-100%)";
   content2.style.transform = "translateX(100%)";
   content3.style.transform = "translateX(0%)";
   btn1.style.color = "#000"
@@ -36,5 +36,5 @@ function openTre() {
   btn3.style.color = "#ff7846"
   content1.style.transitionDelay = "0s"
   content2.style.transitionDelay = "0s"
-  content3.style.transitionDelay = "0.3s"
+  content3.style.transitionDelay = "0.5s "
 }
