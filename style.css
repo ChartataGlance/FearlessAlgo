@@ -43,11 +43,11 @@ p{
 
 .logo{
     position: relative;
-    top: 50px;
+    top: 30px;
     left: 120px;
-    font-size: 3rem;
-    font-weight: 700;
-    color: rgb(94, 150, 160);
+    font-size: 4rem;
+    font-weight: 500;
+    color: rgb(110, 136, 81);
     z-index: 16;
    
     
