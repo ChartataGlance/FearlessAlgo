@@ -9,6 +9,8 @@
 }
 .btn-box{
     display: flex;
+    justify-content: center;
+   
     
     
 
@@ -24,6 +26,7 @@
     font-size: 20px;
     font-weight: 20px;
     margin-left: 100px;
+   
 }
 
 
@@ -32,11 +35,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5% auto;
+    margin: 10% auto;
     position: absolute;
     transform: translateX(100%);
     transition: 0.3s;
-    position: absolute;
+   
     
 }
 

@@ -42,16 +42,24 @@ p{
 }
 
 .logo{
-    position: relative;
-    top: 30px;
-    left: 120px;
-    font-size: 4rem;
-    font-weight: 500;
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    font-size: 2rem;
+    font-weight: 700;
     color: rgb(110, 136, 81);
     z-index: 16;
    
     
 }
+.logo1{
+    position: relative;
+    margin-left: 50px;
+    
+   opacity: 0.2;
+    z-index: 6;
+}
+
 
 
 /*toggle*/
