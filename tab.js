@@ -38,3 +38,12 @@ function openTre() {
   content2.style.transitionDelay = "0s"
   content3.style.transitionDelay = "0.5s "
 }
+
+
+const toggle = document.querySelector('.toggle')
+const navigation = document.querySelector('.navigation')
+
+toggle.addEventListener('click' , () => {
+  toggle.classList.toggle('active')
+  navigation.classList.toggle('active')
+})

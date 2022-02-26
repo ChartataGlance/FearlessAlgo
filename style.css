@@ -20,7 +20,7 @@ body{
 
     background-color:var(--dark-color);
     font-family: 'poppins' , sans-serif;
-    background-image: url("./chart.png");
+    background-image: url("./titlelogo.png");
     background-repeat: no-repeat;
     position: relative;
     height: 110%;
@@ -43,8 +43,8 @@ p{
 
 .logo{
     position: absolute;
-    top: 30px;
-    left: 100px;
+    top: 35px;
+    left: 80px;
     font-size: 2rem;
     font-weight: 700;
     color: rgb(110, 136, 81);
@@ -63,7 +63,7 @@ p{
     right: 5px;
     width: 40px;
     height: 40px;
-    background: url(./imgblur.png);
+    background: url(./togglebtn.png);
     background-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
@@ -73,7 +73,7 @@ p{
 }
 
 .toggle.active {
-    background: var(--sec-color) url(./cross.png);
+    background: var(--sec-color) url(./togglebtnx.png);
     background-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
@@ -81,44 +81,6 @@ p{
 }
 
 
-.btn{
-    cursor: pointer;
-    display: inline-block;
-    background: red;
-    color: var(--dark-color);
-    text-decoration: none;
-    padding: 10px 30px;
-    margin: 20px 0px;
-    border-radius: 10px;
-}
-.btn:hover{
-    transform: scale(0.9);
-}
-
-section {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    padding: 100px;  
-    flex-direction: column;
-}
-section.home {
-    flex-direction: row;
-}
-
-
-.home-content {
-    position: relative;
-    z-index: 12;
-    max-width: 600px;
-}
-
-.home-img {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 110%;
-}
 
 .navigation{
     position: fixed;
@@ -132,13 +94,9 @@ section.home {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./chart.png);
+    background-image: url(./titlelogo.png);
     background-position: center;
     background-repeat: no-repeat;
-    
-
-
-    
 }
 .navigation.active {
     left: 0;
@@ -175,18 +133,15 @@ section.home {
 }
 
 @media (max-width:1068px){
-    .home-img{
-        opacity: 0.5;
-    }
+    
 
     .logo{
-        top: 5px;
-        left: 30px;
-        font-size: 1.5rem;
+        top: 30px;
+        left: 50px;
     }
     
     section {
-        padding: 100px 40px;
+        padding: 40px 40px;
 
     }
     .navigation ul li a {
