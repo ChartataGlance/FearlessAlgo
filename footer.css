@@ -1,0 +1,33 @@
+/** @format */
+
+footer {
+	
+	
+	
+	margin: 0 2%;
+	margin-bottom: 0;
+	margin-top: 5vh;
+}
+.fcard {
+	height: 10vh;
+	background: #1d0a49;
+	border-radius: 15px;
+	box-shadow: 1px 5px 60px 0px #100a886b;
+}
+
+.fcard .fcard-border-top {
+	width: 90%;
+	height: 3%;
+	background: #2d23fa;
+	margin: auto;
+	border-radius: 0px 0px 15px 15px;
+}
+
+.fcard span {
+	font-weight: 600;
+	color: white;
+	text-align: center;
+	display: block;
+	padding-top: 10px;
+	font-size: 16px;
+}
