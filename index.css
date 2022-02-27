@@ -31,15 +31,16 @@ body {
 	margin-top: 30vh;
 	right: 10px;
 }
+
 .contacti li {
 	list-style: none;
 	margin-top: 20px;
 
 }
 
-.contacti a{
+.contacti i{
 	color: rgb(208, 217, 228);
-	font-size: 1.5rem;
+	font-size: 1.9rem;
 	z-index: 130;
 	cursor: pointer;
 }
