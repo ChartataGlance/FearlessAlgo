@@ -6,9 +6,7 @@ const navSlide = () => {
 	const burger = document.querySelector(".burger");
 	const nav = document.querySelector(".nav-links");
 	const navLinks = document.querySelectorAll(" nav .nav-links li");
-   const contentHide = document.querySelector(' .content')
-   const logoShow = document.querySelector('nav .logo')
-
+   
 	burger.addEventListener("click", () => {
 		nav.classList.toggle("nav-active");
 
@@ -20,8 +18,7 @@ const navSlide = () => {
          }
       });
       burger.classList.toggle('toggle');
-      contentHide.classList.toggle('dimm')
-      logoShow.classList.toggle('logoshow')
+     
 	});
 	
 };
