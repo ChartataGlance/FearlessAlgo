@@ -1,17 +1,18 @@
 
 
-
 .cardbox{
-   height: 100vh;
-}
+   display: flex;
+   justify-content: center;
 
+}
 /* From cssbuttons.io by @TimTrayler */
 .card {
    --color-1: rgb(178, 12, 211);
    --color-2: rgb(5, 252, 248);
    --color-3: rgb(28, 0, 48);
-   width: 190px;
-   height: 254px;
+   width: 280px;
+   height: 210px;
+   margin: 30px;
    background: var(--color-3);
    box-shadow: -10px -10px var(--color-1),
                 15px 10px var(--color-2);

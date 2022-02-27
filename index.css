@@ -156,11 +156,19 @@ nav {
     .title a{
         font-size: 3rem;
     }
+	 
 }
 
 @media (min-width: 1024px) {
 	.container {
 		max-width: 1024px;
+	}
+
+	.banner{
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		
 	}
 
 }
@@ -169,6 +177,8 @@ nav {
 	.container {
 		max-width: 1220px;
 	}
+	
+	
 }
 
 @media (min-width: 1280px) {
