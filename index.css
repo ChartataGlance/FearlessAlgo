@@ -1,7 +1,4 @@
-
-
-
-
+/** @format */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Russo+One&display=swap");
 
@@ -15,15 +12,15 @@ body {
 	overflow-x: hidden;
 }
 .title a {
-    font-family: 'poppins',sans-serif;
-    font-weight: 700;
-    font-size: 1.5rem;
-    letter-spacing: 0.2rem;
-    text-decoration: none;
-    list-style: none;
-	 color: rgba(13, 13, 55,0.5);
-	 text-shadow:-1px -1px 0px rgba(13, 13, 44,0.5), 2px 1px 1px rgba(255, 255, 255, 0.2);
-   
+	font-family: "poppins", sans-serif;
+	font-weight: 700;
+	font-size: 1.5rem;
+	letter-spacing: 0.2rem;
+	text-decoration: none;
+	list-style: none;
+	color: rgba(13, 13, 55, 0.5);
+	text-shadow: -1px -1px 0px rgba(13, 13, 44, 0.5),
+		2px 1px 1px rgba(255, 255, 255, 0.2);
 }
 
 .contacti ul {
@@ -35,10 +32,9 @@ body {
 .contacti li {
 	list-style: none;
 	margin-top: 20px;
-
 }
 
-.contacti i{
+.contacti i {
 	color: rgb(208, 217, 228);
 	font-size: 1.9rem;
 	z-index: 130;
@@ -81,7 +77,6 @@ nav {
 .nav-links li {
 	list-style: none;
 	z-index: 5;
-	
 }
 
 .nav-links a {
@@ -95,8 +90,6 @@ nav {
 		1px 1px 5px rgba(11, 29, 31, 0.4);
 	color: #aaa9ad;
 	font-weight: 600;
-	
-	
 }
 
 .burger {
@@ -147,16 +140,18 @@ nav {
 	.container {
 		max-width: 640px;
 	}
+	
 }
 
 @media (min-width: 768px) {
 	.container {
 		max-width: 768px;
 	}
-    .title a{
-        font-size: 3rem;
-    }
-	 
+	.title a {
+		font-size: 3.5rem;
+	}
+
+	
 }
 
 @media (min-width: 1024px) {
@@ -164,31 +159,30 @@ nav {
 		max-width: 1024px;
 	}
 
-	.banner{
+	.banner {
 		display: flex;
 		justify-content: center;
 		flex-direction: row;
-		
 	}
-
 }
 
 @media (min-width: 1220px) {
 	.container {
 		max-width: 1220px;
 	}
-	
-	
+	.title a {
+		font-size: 5rem;
+	}
 }
 
 @media (min-width: 1280px) {
 	.container {
 		max-width: 1280px;
 	}
-    .title a{
-        font-size: 5rem;
-    }
-	
+	.title a {
+		font-size: 5rem;
+	}
+
 	.nav-links {
 		flex-direction: row;
 		top: 5vh;
@@ -196,14 +190,12 @@ nav {
 		align-items: flex-start;
 		right: 5%;
 	}
-	
 }
 
 @media (min-width: 1440px) {
 	.container {
 		max-width: 1440px;
 	}
-   
 }
 
 @media (min-width: 1536px) {
@@ -215,7 +207,6 @@ nav {
 	.container {
 		max-width: 1650px;
 	}
-   
 }
 
 @media (min-width: 1800px) {
@@ -227,13 +218,11 @@ nav {
 	.container {
 		max-width: 1920px;
 	}
-   
 }
 @media (min-width: 2560px) {
 	.container {
 		max-width: 2560px;
 	}
-   
 }
 
 @media (min-width: 3136px) {
