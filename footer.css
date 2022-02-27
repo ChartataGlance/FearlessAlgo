@@ -7,20 +7,19 @@
 	
 }
 
-.footer img {
+.footer img{
  height: 80%;
 }
 
 .fcard {
 	height: 10vh;
-
 	background: #1d0a49;
 	border-radius: 15px;
 	box-shadow: 1px 5px 60px 0px #100a886b;
 }
 
 .fcard .fcard-border-top {
-	width: 90%;
+	width: 60%;
 	height: 3%;
 	background: #2d23fa;
 	margin: auto;
