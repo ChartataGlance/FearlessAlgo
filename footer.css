@@ -108,21 +108,21 @@ footer .wave#wave2
 	z-index: 99;
 	opacity: 0.2;
 	bottom: 75px;
-	animation: animateWave_02 4s linear infinite;
+	animation: animateWave_2 4s linear infinite;
 }
 footer .wave#wave3
 {
 	z-index: 98;
 	opacity: 0.5;
 	bottom: 60;
-	animation: animateWave 3s linear infinite;
+	animation: animateWave_3 3s linear infinite;
 }
 footer .wave#wave4
 {
 	z-index: 97;
 	opacity: 0.3;
 	bottom: 50px;
-	animation: animateWave_02 3s linear infinite;
+	animation: animateWave_4 3s linear infinite;
 }
 
 
@@ -131,7 +131,7 @@ footer .wave#wave4
 {
 	100%
 	{
-		background-position-x:1000px ;
+		background-position-y:1000px ;
 	}
 	0%
 	{
@@ -147,16 +147,17 @@ footer .wave#wave4
 	}
 	100%
 	{
-		background-position-x: 1000px;
+		background-position-x: 1200px;
 	}
 }
+
 @keyframes animateWave_3
 {
-	100%
+	1%
 	{
-		background-position-x:1000px ;
+		background-position-y:800px ;
 	}
-	0%
+	100%
 	{
 		background-position-x: 0px;
 	}
@@ -170,7 +171,7 @@ footer .wave#wave4
 	}
 	100%
 	{
-		background-position-x: 1000px;
+		background-position-x: 600px;
 	}
 }
 
