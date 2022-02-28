@@ -159,11 +159,6 @@ nav {
 		max-width: 1024px;
 	}
 
-	.banner {
-		display: flex;
-		justify-content: center;
-		flex-direction: row;
-	}
 }
 
 @media (min-width: 1220px) {

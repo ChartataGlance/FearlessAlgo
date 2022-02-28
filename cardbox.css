@@ -24,6 +24,8 @@
 .cardbox {
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 /* From cssbuttons.io by @TimTrayler */
 .card {
@@ -67,4 +69,13 @@
 	color: rgb(212, 224, 230);
 	
 	text-shadow: var(--shadow-elevation-high);
+}
+
+
+@media (min-width: 1024px) {
+
+	.cardbox{
+		flex-direction: row;
+	}
+
 }
