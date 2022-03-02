@@ -24,7 +24,7 @@
    font-family: 'poppins',sans-serif;
    font-weight: 400;
    text-align: center;
-   font-size: var(--fsh2);
+   font-size: var(--fsh1);
    line-height: 4rem;
    padding: 10px;
    color: rgb(54, 147, 194);
@@ -104,7 +104,7 @@
 	.ccontainer {
 		max-width: 390px;
 		min-height: 390px;
-      --fstitle:2rem;
+      --fstitle:2.5rem;
 		--fsh1: 1.2rem;
 		--fsh2: 1rem;
 		--fsp: 1rem;
