@@ -1,0 +1,172 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Russo+One&display=swap");
+
+.banner{
+   margin: 0 auto;
+   
+}
+
+.btitle h1{
+   font-family: 'poppins',sans-serif;
+   font-weight: 700;
+   font-size: var(--fstitle);
+   line-height: 5rem;
+   word-break:normal;
+   letter-spacing: 0.7rem;
+   text-align: center;
+   color: rgb(139, 208, 243);
+   text-shadow:-1px -1px 10pxpx rgba(13, 13, 44,0.5), 2px 2px 2px rgba(13, 13, 44 , 0.5)
+}
+
+
+.btitle h2{
+   font-family: 'poppins',sans-serif;
+   font-weight: 400;
+   text-align: center;
+   font-size: var(--fsh2);
+   line-height: 4rem;
+   padding: 10px;
+   color: rgb(54, 147, 194);
+   text-shadow:-1px -1px 10pxpx rgba(13, 13, 44,0.5), 2px 2px 2px rgba(13, 13, 44 , 0.5)
+}
+
+.cardbox {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	font-family: "poppins", sans-serif;
+}
+
+.ccontainer {
+	margin-top: 1vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.cardtext {
+	text-transform: capitalize;
+	width: 80%;
+}
+
+.cardimg {
+	padding: 10px;
+	opacity: 0.5;
+}
+
+.cardtext h1 {
+	font-size: var(--fsh1);
+	padding: 10px;
+	color: black;
+	text-align: left;
+	word-wrap: break-word;
+	width: 50%;
+}
+
+.cardtext h2 {
+	font-size: var(--fsh2);
+	margin: 10px;
+	padding: 5px;
+	color: black;
+	text-align: center;
+	word-wrap: break-word;
+	width: 80%;
+}
+
+.cardtext p {
+	font-size: var(--fsp);
+	padding: 5px;
+	color: black;
+	text-align: left;
+	word-wrap: break-word;
+	width: 80%;
+}
+
+.cardimg img {
+	width: 100%;
+}
+
+@media (min-width: 320px) {
+	.ccontainer {
+		max-width: 320px;
+		min-height: 320px;
+      --fstitle:2rem;
+		--fsh1: 1.2rem;
+		--fsh2: 1rem;
+		--fsp: 1rem;
+	}
+}
+
+@media (min-width: 390px) {
+	.ccontainer {
+		max-width: 390px;
+		min-height: 390px;
+      --fstitle:2rem;
+		--fsh1: 1.2rem;
+		--fsh2: 1rem;
+		--fsp: 1rem;
+	}
+}
+
+@media (min-width: 490px) {
+	.ccontainer {
+		max-width: 490px;
+		min-height: 490px;
+      --fstitle:2.5rem;
+		--fsh1: 2rem;
+		--fsh2: 1rem;
+		--fsp: 1rem;
+	}
+}
+
+@media (min-width: 640px) {
+	.ccontainer {
+		max-width: 640px;
+		min-height: 640px;
+      --fstitle:4rem;
+		--fsh1: 2rem;
+		--fsh2: 1rem;
+		--fsp: 1rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.ccontainer {
+		max-width: 768px;
+		min-height: 768px;
+      --fstitle:3rem;
+		--fsh1: 2rem;
+		--fsh2: 1rem;
+		--fsp: 1.2rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	.ccontainer {
+		max-width: 1024px;
+		min-height: 1024px;
+      --fstitle:5rem;
+		--fsh1: 2rem;
+		--fsh2: 1.1rem;
+		--fsp: 0.8rem;
+	}
+}
+
+@media (min-width: 1920px) {
+	.ccontainer {
+		max-width: 800px;
+		min-height: 800px;
+      --fstitle:2rem
+		--fsh1: 2rem;
+		--fsh2: 1.2rem;
+		--fsp: 0.9rem;
+	}
+
+	.cardrow {
+		display: flex;
+		flex-direction: row;
+	}
+}
