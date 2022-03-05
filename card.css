@@ -2,10 +2,18 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Russo+One&display=swap");
 
+*{
+	list-style: none;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 .banner{
    margin: 0 auto;
-   
 }
+
+
 
 .btitle h1{
    font-family: 'poppins',sans-serif;
@@ -30,6 +38,50 @@
    color: rgb(54, 147, 194);
    text-shadow:-1px -1px 10pxpx rgba(13, 13, 44,0.5), 2px 2px 2px rgba(13, 13, 44 , 0.5)
 }
+
+.condition {
+	
+	font-size: var(--fsh2);
+	background-color: #21212100;
+	color: rgb(155, 204, 132);
+   text-shadow:-1px -1px 10pxpx rgba(13, 13, 44,0.5), 2px 2px 2px rgba(13, 13, 44 , 0.5);
+	
+}
+
+
+.condition li {
+	padding: 5px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	font-size: var(--fsh2);
+	background-color: #21212100;
+	color: rgb(132, 180, 204);
+	background-color: rgba(132, 180, 181,0.1);
+	border-radius: 10px;
+	text-align: inherit;
+   text-shadow:-1px -1px 10pxpx rgba(13, 13, 44,0.5), 2px 2px 2px rgba(13, 13, 44 , 0.5);
+	
+}
+
+
+.infolist a:hover {
+	transform: translateY(-2.8rem);
+	border: #f2295bf0 0.1em solid;
+	border-radius: 2.5rem ;
+	
+}
+.infolist h3{
+	padding: 20px;
+	font-size: var(--fsh2);
+	text-align: center;
+	color: rgb(223, 11, 11);
+}
+
+.infolist button{
+	background-color: blueviolet;
+	padding: 10px;
+}
+
 
 .cardbox {
 	width: 100vw;
@@ -96,7 +148,7 @@
       --fstitle:2rem;
 		--fsh1: 1.2rem;
 		--fsh2: 1rem;
-		--fsp: 1rem;
+		--fsp: 0.6rem;
 	}
 }
 
@@ -107,7 +159,7 @@
       --fstitle:2.5rem;
 		--fsh1: 1.2rem;
 		--fsh2: 1rem;
-		--fsp: 1rem;
+		--fsp: 0.7rem;
 	}
 }
 
@@ -118,7 +170,7 @@
       --fstitle:2.5rem;
 		--fsh1: 2rem;
 		--fsh2: 1rem;
-		--fsp: 1rem;
+		--fsp: 0.8rem;
 	}
 }
 
@@ -126,10 +178,10 @@
 	.ccontainer {
 		max-width: 640px;
 		min-height: 640px;
-      --fstitle:4rem;
+      --fstitle:3rem;
 		--fsh1: 2rem;
 		--fsh2: 1rem;
-		--fsp: 1rem;
+		--fsp: 0.8rem;
 	}
 }
 
@@ -140,7 +192,7 @@
       --fstitle:3rem;
 		--fsh1: 2rem;
 		--fsh2: 1rem;
-		--fsp: 1.2rem;
+		--fsp: 1rem;
 	}
 }
 
@@ -148,25 +200,25 @@
 	.ccontainer {
 		max-width: 1024px;
 		min-height: 1024px;
-      --fstitle:5rem;
+      --fstitle:4rem;
 		--fsh1: 2rem;
-		--fsh2: 1.1rem;
-		--fsp: 0.8rem;
+		--fsh2: 1rem;
+		--fsp: 1rem;
 	}
 }
 
 @media (min-width: 1920px) {
 	.ccontainer {
-		max-width: 800px;
-		min-height: 800px;
-      --fstitle:2rem
-		--fsh1: 2rem;
-		--fsh2: 1.2rem;
-		--fsp: 0.9rem;
+		max-width: 1920px;
+		min-height: 1080px;
+      --fstitle:5rem;
+		--fsh1: 2.5rem;
+		--fsh2: 1.25rem;
+		--fsp: 1rem;
 	}
 
 	.cardrow {
 		display: flex;
-		flex-direction: row;
+		
 	}
 }
